@@ -1,3 +1,3 @@
 MIT License
 
-Copyr
+Copyright (c
