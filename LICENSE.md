@@ -1,1 +1,3 @@
-MIT Licen
+MIT License
+
+Copyr
