@@ -1,3 +1,5 @@
 MIT License
 
-Copyright (c) 2019 Ashley Al
+Copyright (c) 2019 Ashley Allen
+
+Permi
