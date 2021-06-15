@@ -85,3 +85,12 @@ Using dependency injection to convert £10 (GBP) to $ (USD):
         }
     }
 ```
+
+To get an array of converted values between a pair of given dates, you can use the following method:
+```
+    <?php
+    
+    namespace App\Http\Controllers;
+    
+    use AshAllenDesign\Coinverter\Contracts\Coinverter;
+    use Carbon\Carbon;
