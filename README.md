@@ -80,3 +80,8 @@ Using dependency injection to convert £10 (GBP) to $ (USD):
     class TestController extends Controller
     {
         public function index(Coinverter $converter)
+        {
+            return $converter->convert(10, 'GBP', 'USD');
+        }
+    }
+```
