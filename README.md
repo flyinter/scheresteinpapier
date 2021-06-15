@@ -50,3 +50,9 @@ After doing so, you will then be able to use the ``` Coinverter ``` facade.
 The package is built using the adapter pattern so that in the near future it will be much more extendable and support many more
 APIs and services. Therefore, it is best practice when using this package to either instantiate the Coinverter object using
 dependency injection or the facade.
+
+## Examples
+Using the facade to convert £10 (GBP) to $ (USD):
+```
+    <?php
+    
