@@ -33,3 +33,12 @@ Note: It's important to state whether if you are using a 'free' or 'pro' account
 are different depending on the account type.
 
 ####  Exchange Rates API (https://exchangeratesapi.io/)
+This API does not require an API key, so to use this API you just need to set the driver in the .env as seen below:
+```
+COINVERTER_DRIVER=exchangeratesapi
+```
+
+### Facade
+You can use the facade for the package by adding the following line to the *aliases* array in the *config/app.php* file:
+```
+'Coinverter' => \AshAllenDesign\Coinverter\Facades\CoinverterFacade::class
