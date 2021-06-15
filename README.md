@@ -42,3 +42,11 @@ COINVERTER_DRIVER=exchangeratesapi
 You can use the facade for the package by adding the following line to the *aliases* array in the *config/app.php* file:
 ```
 'Coinverter' => \AshAllenDesign\Coinverter\Facades\CoinverterFacade::class
+```
+
+After doing so, you will then be able to use the ``` Coinverter ``` facade.
+
+## Usage
+The package is built using the adapter pattern so that in the near future it will be much more extendable and support many more
+APIs and services. Therefore, it is best practice when using this package to either instantiate the Coinverter object using
+dependency injection or the facade.
