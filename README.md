@@ -66,3 +66,17 @@ Using the facade to convert £10 (GBP) to $ (USD):
         {
             return Coinverter::convert(10, 'GBP', 'USD');
         }
+    }
+```
+
+Using dependency injection to convert £10 (GBP) to $ (USD):
+```
+    <?php
+    
+    namespace App\Http\Controllers;
+    
+    use AshAllenDesign\Coinverter\Contracts\Coinverter;
+    
+    class TestController extends Controller
+    {
+        public function index(Coinverter $converter)
