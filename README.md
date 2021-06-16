@@ -123,3 +123,13 @@ To get an array of supported currencies:
 ```
 
 ## Tests
+At this present moment, no tests have been written for this package but they will be added in due course.
+
+Furthermore, the 'Pro' account of Currency Converter API has not been tested for functionality.
+
+## Issues & Future Work
+In the future, more adapters will be written so that more currency conversion APIs can be interacted with. If there is
+a particular API/service that you wish to have added, email mail@ashallendesign.co.uk. Alternatively, you can contribute to the package if
+you wish to add the functionality yourself.
+
+For any security related issues, please report them via email to mail@ashallendesign.co.uk.
