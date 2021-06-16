@@ -103,3 +103,13 @@ To get an array of converted values between a pair of given dates, you can use t
         }
     }
 ```
+
+To get an array of supported currencies:
+```
+    <?php
+    
+    namespace App\Http\Controllers;
+    
+    use AshAllenDesign\Coinverter\Contracts\Coinverter;
+    use Carbon\Carbon;
+    
