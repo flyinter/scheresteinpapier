@@ -113,3 +113,13 @@ To get an array of supported currencies:
     use AshAllenDesign\Coinverter\Contracts\Coinverter;
     use Carbon\Carbon;
     
+    class TestController extends Controller
+    {
+        public function index(Coinverter $converter)
+        {
+            return $converter->currencies();
+        }
+    }
+```
+
+## Tests
