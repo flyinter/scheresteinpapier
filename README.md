@@ -94,3 +94,12 @@ To get an array of converted values between a pair of given dates, you can use t
     
     use AshAllenDesign\Coinverter\Contracts\Coinverter;
     use Carbon\Carbon;
+    
+    class TestController extends Controller
+    {
+        public function index(Coinverter $converter)
+        {
+            return $converter->convertBetweenDateRange(10.22, 'GBP', 'EUR', Carbon::today()->subDays(8), Carbon::today());
+        }
+    }
+```
