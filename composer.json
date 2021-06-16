@@ -11,3 +11,14 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Ash Allen",
+            "email": "mail@ashallendesign.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AshAllenDesign\\Coinverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
