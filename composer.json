@@ -22,3 +22,9 @@
     },
     "extra": {
         "laravel": {
+            "providers": [
+                "AshAllenDesign\\Coinverter\\Providers\\CoinverterServiceProvider"
+            ]
+        }
+    }
+}
