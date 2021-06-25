@@ -180,3 +180,8 @@
                     "name": "Tobias Schultze",
                     "homepage": "https://github.com/Tobion"
                 }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
