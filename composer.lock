@@ -341,3 +341,11 @@
                 "datetime",
                 "time"
             ],
+            "time": "2019-07-18T18:47:28+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
