@@ -333,3 +333,11 @@
                     "name": "kylekatarnls",
                     "homepage": "http://github.com/kylekatarnls"
                 }
+            ],
+            "description": "A simple API extension for DateTime.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
