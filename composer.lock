@@ -369,3 +369,10 @@
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
