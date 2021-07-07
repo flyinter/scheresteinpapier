@@ -492,3 +492,9 @@
             ],
             "time": "2019-02-06T07:57:58+00:00"
         },
+        {
+            "name": "symfony/translation",
+            "version": "v4.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
