@@ -563,3 +563,11 @@
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-07-18T10:34:59+00:00"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "version": "v1.1.5",
