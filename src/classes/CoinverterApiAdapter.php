@@ -1,3 +1,3 @@
 <?php
 
-namespace AshAllen
+namespace AshAllenDesign\Coinver
