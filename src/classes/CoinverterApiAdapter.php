@@ -2,4 +2,4 @@
 
 namespace AshAllenDesign\Coinverter;
 
-use AshAllenDesign\Coinverter\Contracts
+use AshAllenDesign\Coinverter\Contracts\Coinverte
