@@ -1,3 +1,5 @@
 <?php
 
-namespace AshAllenDesign\Coinver
+namespace AshAllenDesign\Coinverter;
+
+use
