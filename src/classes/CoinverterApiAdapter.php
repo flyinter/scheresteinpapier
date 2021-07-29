@@ -6,4 +6,4 @@ use AshAllenDesign\Coinverter\Contracts\Coinverter;
 use Carbon\Carbon;
 use GuzzleHttp\Client;
 
-class Coinverte
+class CoinverterApiAdapte
