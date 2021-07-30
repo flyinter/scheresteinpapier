@@ -9,4 +9,6 @@ use GuzzleHttp\Client;
 class CoinverterApiAdapter implements Coinverter
 {
     /** @var string */
-    private $API_KE
+    private $API_KEY;
+
+    /** 
