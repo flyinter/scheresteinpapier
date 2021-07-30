@@ -7,3 +7,5 @@ use Carbon\Carbon;
 use GuzzleHttp\Client;
 
 class CoinverterApiAdapter implements Coinverter
+{
+    /**
