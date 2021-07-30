@@ -8,4 +8,4 @@ use GuzzleHttp\Client;
 
 class CoinverterApiAdapter implements Coinverter
 {
-    /**
+    /** @var strin
