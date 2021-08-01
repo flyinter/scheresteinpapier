@@ -12,4 +12,6 @@ class CoinverterApiAdapter implements Coinverter
     private $API_KEY;
 
     /** @var string */
-    private 
+    private $BASE_URL;
+
+  
