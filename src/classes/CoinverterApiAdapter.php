@@ -16,3 +16,5 @@ class CoinverterApiAdapter implements Coinverter
 
     /** @var string */
     private $ACCOUNT_TYPE;
+
+    /** @va
