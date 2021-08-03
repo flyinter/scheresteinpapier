@@ -15,4 +15,4 @@ class CoinverterApiAdapter implements Coinverter
     private $BASE_URL;
 
     /** @var string */
-    priva
+    private $ACCOU
