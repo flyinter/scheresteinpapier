@@ -18,4 +18,4 @@ class CoinverterApiAdapter implements Coinverter
     private $ACCOUNT_TYPE;
 
     /** @var Client */
-    p
+    private $clien
