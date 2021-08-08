@@ -21,4 +21,5 @@ class CoinverterApiAdapter implements Coinverter
     private $client;
 
     /**
-     * CoinverterApiAdapter constructor
+     * CoinverterApiAdapter constructor.
+     * @
