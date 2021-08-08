@@ -22,4 +22,5 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * CoinverterApiAdapter constructor.
-     * @param Client|null $cl
+     * @param Client|null $client
+   
