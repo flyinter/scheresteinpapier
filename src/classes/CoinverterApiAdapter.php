@@ -25,4 +25,5 @@ class CoinverterApiAdapter implements Coinverter
      * @param Client|null $client
      * @param string|null $apiKey
      * @throws \Exception
- 
+     */
+    pub
