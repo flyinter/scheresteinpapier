@@ -26,4 +26,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param string|null $apiKey
      * @throws \Exception
      */
-    public fun
+    public function __co
