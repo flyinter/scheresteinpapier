@@ -26,4 +26,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param string|null $apiKey
      * @throws \Exception
      */
-    public function __construct(
+    public function __construct(Client $cl
