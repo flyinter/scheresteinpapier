@@ -28,4 +28,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function __construct(Client $client = null, string $apiKey = null)
     {
-        $this
+        $this->API_KEY
