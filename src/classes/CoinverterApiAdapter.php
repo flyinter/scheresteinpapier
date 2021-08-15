@@ -28,4 +28,5 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function __construct(Client $client = null, string $apiKey = null)
     {
-        $this->API_KEY = $apiKey ?? config('coinverter.currencyconverterapi.api-key'
+        $this->API_KEY = $apiKey ?? config('coinverter.currencyconverterapi.api-key');
+        $this-
