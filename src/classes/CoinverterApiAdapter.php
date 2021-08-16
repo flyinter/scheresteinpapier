@@ -30,4 +30,5 @@ class CoinverterApiAdapter implements Coinverter
     {
         $this->API_KEY = $apiKey ?? config('coinverter.currencyconverterapi.api-key');
         $this->ACCOUNT_TYPE = $this->determineAccountType();
-        $this->BASE_URL = $this->determine
+        $this->BASE_URL = $this->determineBaseUrl();
+
