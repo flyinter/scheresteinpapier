@@ -32,3 +32,4 @@ class CoinverterApiAdapter implements Coinverter
         $this->ACCOUNT_TYPE = $this->determineAccountType();
         $this->BASE_URL = $this->determineBaseUrl();
 
+        $this->
