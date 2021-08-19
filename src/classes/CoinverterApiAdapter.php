@@ -35,4 +35,5 @@ class CoinverterApiAdapter implements Coinverter
         $this->client = $client ?? (new Client());
     }
 
-    
+    /**
+     
