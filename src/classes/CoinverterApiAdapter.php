@@ -41,3 +41,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function determineAccountType()
     {
+        if (co
