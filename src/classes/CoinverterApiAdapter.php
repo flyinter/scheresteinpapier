@@ -40,4 +40,4 @@ class CoinverterApiAdapter implements Coinverter
      * @throws \Exception
      */
     private function determineAccountType()
- 
+    {
