@@ -41,4 +41,5 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function determineAccountType()
     {
-        if (config('coinverter.currencyconverterapi.account-type') == 'free
+        if (config('coinverter.currencyconverterapi.account-type') == 'free') {
+          
