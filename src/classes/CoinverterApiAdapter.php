@@ -45,4 +45,4 @@ class CoinverterApiAdapter implements Coinverter
             return 'free';
         }
 
-        if (con
+        if (config('coinverter
