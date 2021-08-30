@@ -45,4 +45,4 @@ class CoinverterApiAdapter implements Coinverter
             return 'free';
         }
 
-        if (config('coinverter.currencyconverterapi.acc
+        if (config('coinverter.currencyconverterapi.account-type')
