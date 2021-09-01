@@ -47,4 +47,6 @@ class CoinverterApiAdapter implements Coinverter
 
         if (config('coinverter.currencyconverterapi.account-type') == 'pro') {
             return 'pr';
-       
+        }
+
+   
