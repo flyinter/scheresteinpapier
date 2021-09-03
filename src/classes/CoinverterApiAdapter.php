@@ -49,4 +49,4 @@ class CoinverterApiAdapter implements Coinverter
             return 'pr';
         }
 
-        throw new \Excep
+        throw new \Exception('The cur
