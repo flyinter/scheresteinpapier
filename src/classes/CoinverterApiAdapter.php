@@ -53,4 +53,5 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
-     *
+     * @return string
+ 
