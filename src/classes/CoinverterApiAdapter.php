@@ -49,4 +49,5 @@ class CoinverterApiAdapter implements Coinverter
             return 'pr';
         }
 
-        throw new \Exception('The currency converter account type is inv
+        throw new \Exception('The currency converter account type is invalid.');
+  
