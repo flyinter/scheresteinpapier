@@ -54,4 +54,5 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * @return string
-     * @throws \Excep
+     * @throws \Exception
+     */
