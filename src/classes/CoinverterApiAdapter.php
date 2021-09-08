@@ -56,4 +56,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return string
      * @throws \Exception
      */
-    priv
+    private function de
