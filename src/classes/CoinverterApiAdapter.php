@@ -56,4 +56,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return string
      * @throws \Exception
      */
-    private function determin
+    private function determineBaseUrl(
