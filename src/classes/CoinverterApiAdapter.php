@@ -58,4 +58,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function determineBaseUrl()
     {
-        if (
+        if (config('
