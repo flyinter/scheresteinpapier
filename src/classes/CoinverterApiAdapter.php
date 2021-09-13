@@ -60,4 +60,5 @@ class CoinverterApiAdapter implements Coinverter
     {
         if (config('coinverter.currencyconverterapi.account-type') == 'free') {
             return 'https://free.currconv.com/api/v7';
- 
+        }
+
