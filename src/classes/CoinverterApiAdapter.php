@@ -59,4 +59,5 @@ class CoinverterApiAdapter implements Coinverter
     private function determineBaseUrl()
     {
         if (config('coinverter.currencyconverterapi.account-type') == 'free') {
-            return 'https://free.currconv.com/ap
+            return 'https://free.currconv.com/api/v7';
+ 
