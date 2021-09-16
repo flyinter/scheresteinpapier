@@ -63,4 +63,4 @@ class CoinverterApiAdapter implements Coinverter
         }
 
         if (config('coinverter.currencyconverterapi.account-type') == 'pro') {
-            return 'https://api.cur
+            return 'https://api.currcon
