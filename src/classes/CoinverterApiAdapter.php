@@ -66,4 +66,4 @@ class CoinverterApiAdapter implements Coinverter
             return 'https://api.currconv.com/api/v7';
         }
 
-        throw new \Excepti
+        throw new \Exception('The cu
