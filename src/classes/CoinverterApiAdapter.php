@@ -70,4 +70,5 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
-     * @param array $currencie
+     * @param array $currencies
+     * 
