@@ -73,4 +73,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param array $currencies
      * @return mixed
      */
-    public function currencies(array $cur
+    public function currencies(array $currencie
