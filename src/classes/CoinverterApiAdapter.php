@@ -75,4 +75,6 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function currencies(array $currencies = [])
     {
-        $response = $this->makeRequest('/curr
+        $response = $this->makeRequest('/currencies');
+
+    
