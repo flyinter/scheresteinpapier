@@ -78,4 +78,5 @@ class CoinverterApiAdapter implements Coinverter
         $response = $this->makeRequest('/currencies');
 
         foreach ($response->results as $currency => $metaData) {
-            $currencies[] = $curre
+            $currencies[] = $currency;
+  
