@@ -81,4 +81,4 @@ class CoinverterApiAdapter implements Coinverter
             $currencies[] = $currency;
         }
 
-        r
+        return $cu
