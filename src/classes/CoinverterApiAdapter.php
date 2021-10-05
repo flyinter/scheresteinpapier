@@ -85,3 +85,4 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
+     * @
