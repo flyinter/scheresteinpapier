@@ -84,4 +84,4 @@ class CoinverterApiAdapter implements Coinverter
         return $currencies;
     }
 
- 
+    /**
