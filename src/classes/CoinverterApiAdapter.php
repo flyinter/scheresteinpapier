@@ -89,3 +89,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param string      $to
      * @param Carbon|null $date
      * @return mixed
+     */
