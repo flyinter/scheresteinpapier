@@ -90,4 +90,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param Carbon|null $date
      * @return mixed
      */
-    publ
+    public funct
