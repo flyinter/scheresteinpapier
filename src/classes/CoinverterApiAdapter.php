@@ -90,4 +90,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param Carbon|null $date
      * @return mixed
      */
-    public function exchangeRate(string $from, string $to, Car
+    public function exchangeRate(string $from, string $to, Carbon $date =
