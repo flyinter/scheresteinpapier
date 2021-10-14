@@ -93,4 +93,4 @@ class CoinverterApiAdapter implements Coinverter
     public function exchangeRate(string $from, string $to, Carbon $date = null)
     {
         $conversion = $from.'_'.$to;
-        $date = $date ? $date->format
+        $date = $date ? $date->format('Y-m-d') : 
