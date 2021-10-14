@@ -92,4 +92,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function exchangeRate(string $from, string $to, Carbon $date = null)
     {
-        $conversio
+        $conversion = $from
