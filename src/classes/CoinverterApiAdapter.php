@@ -95,4 +95,4 @@ class CoinverterApiAdapter implements Coinverter
         $conversion = $from.'_'.$to;
         $date = $date ? $date->format('Y-m-d') : now()->format('Y-m-d');
 
-   
+        $res
