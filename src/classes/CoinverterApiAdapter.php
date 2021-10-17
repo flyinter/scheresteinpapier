@@ -96,4 +96,4 @@ class CoinverterApiAdapter implements Coinverter
         $date = $date ? $date->format('Y-m-d') : now()->format('Y-m-d');
 
         $response = $this->makeRequest('/convert', [
-            'q'    => $co
+            'q'    => $conversio
