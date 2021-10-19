@@ -101,4 +101,6 @@ class CoinverterApiAdapter implements Coinverter
         ]);
 
         return $response->results->$conversion->val->$date;
-   
+    }
+
+    
