@@ -104,4 +104,4 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
-     *
+     * @param st
