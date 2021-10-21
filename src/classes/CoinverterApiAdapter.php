@@ -105,4 +105,4 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * @param string $from
-     * @param s
+     * @param string 
