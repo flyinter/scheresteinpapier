@@ -107,4 +107,5 @@ class CoinverterApiAdapter implements Coinverter
      * @param string $from
      * @param string $to
      * @param Carbon $date
-     * @param Carbon $endD
+     * @param Carbon $endDate
+   
