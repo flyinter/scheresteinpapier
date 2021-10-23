@@ -109,4 +109,5 @@ class CoinverterApiAdapter implements Coinverter
      * @param Carbon $date
      * @param Carbon $endDate
      * @param array  $conversions
-     * @return m
+     * @return mixed
+     * @t
