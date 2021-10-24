@@ -111,4 +111,5 @@ class CoinverterApiAdapter implements Coinverter
      * @param array  $conversions
      * @return mixed
      * @throws \Exception
-   
+     */
+    publi
