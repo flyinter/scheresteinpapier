@@ -112,4 +112,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return mixed
      * @throws \Exception
      */
-    public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $en
+    public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $endDate
