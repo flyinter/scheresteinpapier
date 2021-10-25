@@ -112,4 +112,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return mixed
      * @throws \Exception
      */
-    public function exchangeRateBetweenDateRange(s
+    public function exchangeRateBetweenDateRange(string
