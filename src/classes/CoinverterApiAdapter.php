@@ -114,4 +114,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $endDate, $conversions = [])
     {
-        $this->validateDateRange(
+        $this->validateDateRange($date, $endD
