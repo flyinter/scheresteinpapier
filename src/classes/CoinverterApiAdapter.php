@@ -116,4 +116,4 @@ class CoinverterApiAdapter implements Coinverter
     {
         $this->validateDateRange($date, $endDate);
 
-     
+        $c
