@@ -116,4 +116,5 @@ class CoinverterApiAdapter implements Coinverter
     {
         $this->validateDateRange($date, $endDate);
 
-        $conversion = $from.
+        $conversion = $from.'_'.$to;
+
