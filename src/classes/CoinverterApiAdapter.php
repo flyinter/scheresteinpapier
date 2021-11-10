@@ -118,4 +118,4 @@ class CoinverterApiAdapter implements Coinverter
 
         $conversion = $from.'_'.$to;
 
-        return $this->makeRequest('/co
+        return $this->makeRequest('/convert', [
