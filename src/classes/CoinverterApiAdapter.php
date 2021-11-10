@@ -118,3 +118,4 @@ class CoinverterApiAdapter implements Coinverter
 
         $conversion = $from.'_'.$to;
 
+        retur
