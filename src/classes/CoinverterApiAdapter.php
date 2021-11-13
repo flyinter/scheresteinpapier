@@ -119,4 +119,5 @@ class CoinverterApiAdapter implements Coinverter
         $conversion = $from.'_'.$to;
 
         return $this->makeRequest('/convert', [
-            'q'       => $convers
+            'q'       => $conversion,
+      
