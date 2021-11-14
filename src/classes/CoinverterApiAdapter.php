@@ -120,4 +120,4 @@ class CoinverterApiAdapter implements Coinverter
 
         return $this->makeRequest('/convert', [
             'q'       => $conversion,
-            'date'    => $da
+            'date'    => $date->forma
