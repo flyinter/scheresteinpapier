@@ -123,4 +123,6 @@ class CoinverterApiAdapter implements Coinverter
             'date'    => $date->format('Y-m-d'),
             'endDate' => $endDate->format('Y-m-d'),
         ])->results->$conversion->val;
-    
+    }
+
+    /**
