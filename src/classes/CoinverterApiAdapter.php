@@ -127,4 +127,4 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * @param float       $value
-     * @param string  
+     * @param string      $fro
