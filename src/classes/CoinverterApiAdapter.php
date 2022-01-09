@@ -132,4 +132,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param Carbon|null $date
      * @return float|int
      */
-    public function conve
+    public function convert(flo
