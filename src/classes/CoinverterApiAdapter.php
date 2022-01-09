@@ -131,4 +131,5 @@ class CoinverterApiAdapter implements Coinverter
      * @param string      $to
      * @param Carbon|null $date
      * @return float|int
-     
+     */
+    p
