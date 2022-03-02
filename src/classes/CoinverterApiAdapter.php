@@ -134,4 +134,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     public function convert(float $value, string $from, string $to, Carbon $date = null)
     {
-        return $value * $this->exchangeRate($from, $
+        return $value * $this->exchangeRate($from, $to, $dat
