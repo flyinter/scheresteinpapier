@@ -136,3 +136,5 @@ class CoinverterApiAdapter implements Coinverter
     {
         return $value * $this->exchangeRate($from, $to, $date);
     }
+
+    /**
