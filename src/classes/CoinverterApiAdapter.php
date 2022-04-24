@@ -147,4 +147,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return array
      * @throws \Exception
      */
-    public 
+    public function co
