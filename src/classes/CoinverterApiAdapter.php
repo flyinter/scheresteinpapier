@@ -147,4 +147,4 @@ class CoinverterApiAdapter implements Coinverter
      * @return array
      * @throws \Exception
      */
-    public function convertBetw
+    public function convertBetweenDateRang
