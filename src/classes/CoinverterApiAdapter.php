@@ -148,4 +148,5 @@ class CoinverterApiAdapter implements Coinverter
      * @throws \Exception
      */
     public function convertBetweenDateRange(float $value, string $from, string $to, Carbon $date, Carbon $endDate, array $conversions = [])
- 
+    {
+        foreac
