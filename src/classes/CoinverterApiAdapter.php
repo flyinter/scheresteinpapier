@@ -153,4 +153,5 @@ class CoinverterApiAdapter implements Coinverter
             $conversions[$date] = $value * $exchangeRate;
         }
 
-        return $convers
+        return $conversions;
+ 
