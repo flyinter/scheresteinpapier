@@ -151,3 +151,4 @@ class CoinverterApiAdapter implements Coinverter
     {
         foreach ($this->exchangeRateBetweenDateRange($from, $to, $date, $endDate) as $date => $exchangeRate) {
             $conversions[$date] = $value * $exchangeRate;
+        }
