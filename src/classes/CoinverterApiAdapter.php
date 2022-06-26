@@ -157,3 +157,4 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
+     * @para
