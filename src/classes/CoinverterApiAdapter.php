@@ -154,4 +154,6 @@ class CoinverterApiAdapter implements Coinverter
         }
 
         return $conversions;
- 
+    }
+
+    /**
