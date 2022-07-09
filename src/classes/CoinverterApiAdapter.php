@@ -158,4 +158,4 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * @param string $path
-     * @param array  ...$qu
+     * @param array  ...$queryParam
