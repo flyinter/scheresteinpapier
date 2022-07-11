@@ -161,4 +161,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param array  ...$queryParams
      * @return mixed
      */
-    private function makeR
+    private function makeRequest(stri
