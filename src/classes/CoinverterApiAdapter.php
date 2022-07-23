@@ -163,4 +163,4 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function makeRequest(string $path, array $queryParams = [])
     {
-    
+        $ur
