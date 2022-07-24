@@ -163,4 +163,6 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function makeRequest(string $path, array $queryParams = [])
     {
-        $url = $this->BASE_URL.$path.'?apiKey='.$this->API_K
+        $url = $this->BASE_URL.$path.'?apiKey='.$this->API_KEY;
+
+ 
