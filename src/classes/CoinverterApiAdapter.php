@@ -165,4 +165,4 @@ class CoinverterApiAdapter implements Coinverter
     {
         $url = $this->BASE_URL.$path.'?apiKey='.$this->API_KEY;
 
-        foreach ($q
+        foreach ($queryPa
