@@ -167,4 +167,6 @@ class CoinverterApiAdapter implements Coinverter
 
         foreach ($queryParams as $param => $value) {
             $url .= '&'.urlencode($param).'='.urlencode($value);
-       
+        }
+
+ 
