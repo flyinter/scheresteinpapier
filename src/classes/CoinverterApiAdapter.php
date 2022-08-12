@@ -169,4 +169,4 @@ class CoinverterApiAdapter implements Coinverter
             $url .= '&'.urlencode($param).'='.urlencode($value);
         }
 
-        return json_decode($this->client->get($url)->g
+        return json_decode($this->client->get($url)->getBody()->getC
