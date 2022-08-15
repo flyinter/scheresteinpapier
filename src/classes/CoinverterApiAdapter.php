@@ -172,4 +172,5 @@ class CoinverterApiAdapter implements Coinverter
         return json_decode($this->client->get($url)->getBody()->getContents());
     }
 
- 
+    /**
+  
