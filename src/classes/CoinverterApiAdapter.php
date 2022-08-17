@@ -173,4 +173,4 @@ class CoinverterApiAdapter implements Coinverter
     }
 
     /**
-  
+     * @pa
