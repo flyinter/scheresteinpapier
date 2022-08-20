@@ -174,4 +174,5 @@ class CoinverterApiAdapter implements Coinverter
 
     /**
      * @param Carbon $date
-     * @param Carbon $endDa
+     * @param Carbon $endDate
+    
