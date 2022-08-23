@@ -175,4 +175,6 @@ class CoinverterApiAdapter implements Coinverter
     /**
      * @param Carbon $date
      * @param Carbon $endDate
-     * @throws \Exceptio
+     * @throws \Exception
+     */
+  
