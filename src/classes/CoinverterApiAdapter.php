@@ -177,4 +177,4 @@ class CoinverterApiAdapter implements Coinverter
      * @param Carbon $endDate
      * @throws \Exception
      */
-    private function validateDateRange(Carbon $date
+    private function validateDateRange(Carbon $date, Carbon 
