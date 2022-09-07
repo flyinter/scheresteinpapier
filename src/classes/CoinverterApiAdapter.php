@@ -179,4 +179,5 @@ class CoinverterApiAdapter implements Coinverter
      */
     private function validateDateRange(Carbon $date, Carbon $endDate)
     {
-        $dateRange = $date->diffInDays($e
+        $dateRange = $date->diffInDays($endDate);
+
