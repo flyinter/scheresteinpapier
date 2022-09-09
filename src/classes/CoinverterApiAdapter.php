@@ -181,4 +181,4 @@ class CoinverterApiAdapter implements Coinverter
     {
         $dateRange = $date->diffInDays($endDate);
 
-     
+        if ($t
