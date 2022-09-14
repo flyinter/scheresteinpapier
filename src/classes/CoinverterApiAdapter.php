@@ -181,4 +181,5 @@ class CoinverterApiAdapter implements Coinverter
     {
         $dateRange = $date->diffInDays($endDate);
 
-        if ($this->ACCOUNT_TYPE == 'free' && $dateRa
+        if ($this->ACCOUNT_TYPE == 'free' && $dateRange > 8) {
+  
