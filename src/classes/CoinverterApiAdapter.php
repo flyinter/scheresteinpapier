@@ -183,4 +183,6 @@ class CoinverterApiAdapter implements Coinverter
 
         if ($this->ACCOUNT_TYPE == 'free' && $dateRange > 8) {
             throw new \Exception('The free currencyconverterapi.com account only allows an 8 day date range.');
-       
+        }
+
+      
