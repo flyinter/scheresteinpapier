@@ -185,4 +185,4 @@ class CoinverterApiAdapter implements Coinverter
             throw new \Exception('The free currencyconverterapi.com account only allows an 8 day date range.');
         }
 
-      
+        if 
