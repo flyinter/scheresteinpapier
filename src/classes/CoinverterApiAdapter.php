@@ -186,4 +186,4 @@ class CoinverterApiAdapter implements Coinverter
         }
 
         if ($this->ACCOUNT_TYPE == 'pro' && $dateRange > 365) {
-            throw new \Exception('The pro currencyconverterapi.
+            throw new \Exception('The pro currencyconverterapi.com acco
