@@ -13,3 +13,6 @@ class ExchangeRatesApiAdapter implements Coinverter
     private $BASE_URL;
 
     /** @var Client */
+    private $client;
+
+    /**
