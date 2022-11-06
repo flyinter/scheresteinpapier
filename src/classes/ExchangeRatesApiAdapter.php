@@ -30,3 +30,11 @@ class ExchangeRatesApiAdapter implements Coinverter
      * @param array $currencies
      * @return array
      */
+    public function currencies(array $currencies = [])
+    {
+        $response = $this->makeRequest('/latest');
+
+        $currencies[] = $response->base;
+
+        foreach ($response->rates as $currency => $rate) {
+            $currencies[] = $currency;
