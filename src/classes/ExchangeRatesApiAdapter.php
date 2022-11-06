@@ -45,3 +45,13 @@ class ExchangeRatesApiAdapter implements Coinverter
 
     /**
      * @param string      $from
+     * @param string      $to
+     * @param Carbon|null $date
+     * @return mixed
+     */
+    public function exchangeRate(string $from, string $to, Carbon $date = null)
+    {
+        return $date
+            ? $this->makeRequest('/'.$date->format('Y-m-d'), ['base' => $from])->rates->$to
+            : $this->makeRequest('/latest', ['base' => $from])->rates->$to;
+    }
