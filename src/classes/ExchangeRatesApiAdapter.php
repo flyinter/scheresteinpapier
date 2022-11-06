@@ -38,3 +38,10 @@ class ExchangeRatesApiAdapter implements Coinverter
 
         foreach ($response->rates as $currency => $rate) {
             $currencies[] = $currency;
+        }
+
+        return $currencies;
+    }
+
+    /**
+     * @param string      $from
