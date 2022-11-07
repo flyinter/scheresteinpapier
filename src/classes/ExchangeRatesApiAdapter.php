@@ -63,3 +63,12 @@ class ExchangeRatesApiAdapter implements Coinverter
      * @param Carbon $endDate
      * @param array  $conversions
      * @return mixed
+     * @throws \Exception
+     */
+    public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $endDate, $conversions = [])
+    {
+        $result = $this->makeRequest('/history', [
+            'base'     => $from,
+            'start_at' => $date->format('Y-m-d'),
+            'end_at'   => $endDate->format('Y-m-d'),
+            'symbols'  => $to,
