@@ -82,3 +82,11 @@ class ExchangeRatesApiAdapter implements Coinverter
     }
 
     /**
+     * @param float       $value
+     * @param string      $from
+     * @param string      $to
+     * @param Carbon|null $date
+     * @return float|int
+     */
+    public function convert(float $value, string $from, string $to, Carbon $date = null)
+    {
