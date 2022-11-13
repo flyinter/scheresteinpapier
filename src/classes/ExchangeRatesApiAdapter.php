@@ -72,3 +72,13 @@ class ExchangeRatesApiAdapter implements Coinverter
             'start_at' => $date->format('Y-m-d'),
             'end_at'   => $endDate->format('Y-m-d'),
             'symbols'  => $to,
+        ]);
+
+        foreach ($result->rates as $date => $rate) {
+            $conversions[$date] = $rate->{$to};
+        }
+
+        return $conversions;
+    }
+
+    /**
