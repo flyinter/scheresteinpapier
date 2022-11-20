@@ -106,3 +106,15 @@ class ExchangeRatesApiAdapter implements Coinverter
     public function convertBetweenDateRange(float $value, string $from, string $to, Carbon $date, Carbon $endDate, array $conversions = [])
     {
         foreach ($this->exchangeRateBetweenDateRange($from, $to, $date, $endDate) as $date => $exchangeRate) {
+            $conversions[$date] = $value * $exchangeRate;
+        }
+
+        return $conversions;
+    }
+
+    /**
+     * @param string $path
+     * @param array  ...$queryParams
+     * @return mixed
+     */
+    private function makeRequest(string $path, array $queryParams = [])
