@@ -118,3 +118,13 @@ class ExchangeRatesApiAdapter implements Coinverter
      * @return mixed
      */
     private function makeRequest(string $path, array $queryParams = [])
+    {
+        $url = $this->BASE_URL.$path.'?';
+
+        foreach ($queryParams as $param => $value) {
+            $url .= '&'.urlencode($param).'='.urlencode($value);
+        }
+
+        return json_decode($this->client->get($url)->getBody()->getContents());
+    }
+}
