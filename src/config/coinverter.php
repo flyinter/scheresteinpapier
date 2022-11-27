@@ -20,3 +20,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Currency Converter API (https://www.currencyconverterapi.com/)
+    |--------------------------------------------------------------------------
+    |
+    | Configurable options for this API service.
+    |
+    | Possible account types: 'free', 'pro'.
+    |
+    */
