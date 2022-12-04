@@ -1,3 +1,3 @@
 <?php
 
-namespa
+namespace AshAll
