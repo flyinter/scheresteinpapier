@@ -28,3 +28,17 @@ return [
     | Possible account types: 'free', 'pro'.
     |
     */
+    'currencyconverterapi' => [
+        'api-key'      => env('CURRENCY_CONVERTER_API_KEY'),
+        'account-type' => env('CURRENCY_CONVERTER_API_ACCOUNT_TYPE'),
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Exchange Rates API (https://exchangeratesapi.io/)
+    |--------------------------------------------------------------------------
+    |
+    | Configurable options for this API service.
+    |
+    */
+    'exchangeratesapi'        => [
