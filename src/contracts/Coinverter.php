@@ -1,3 +1,3 @@
 <?php
 
-namespace AshAllenDesign\Coinverte
+namespace AshAllenDesign\Coinverter\Contr
