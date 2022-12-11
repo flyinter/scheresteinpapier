@@ -1,3 +1,5 @@
 <?php
 
-namespace AshAllenDesign\Coinverter\Contr
+namespace AshAllenDesign\Coinverter\Contracts;
+
+use
