@@ -2,4 +2,6 @@
 
 namespace AshAllenDesign\Coinverter\Contracts;
 
-use Carbon\Carb
+use Carbon\Carbon;
+
+int
