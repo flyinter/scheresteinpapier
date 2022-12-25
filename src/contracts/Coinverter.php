@@ -6,4 +6,4 @@ use Carbon\Carbon;
 
 interface Coinverter
 {
-    public funct
+    public function exchang
