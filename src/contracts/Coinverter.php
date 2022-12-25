@@ -6,4 +6,4 @@ use Carbon\Carbon;
 
 interface Coinverter
 {
-    p
+    public funct
