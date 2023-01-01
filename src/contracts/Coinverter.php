@@ -6,4 +6,4 @@ use Carbon\Carbon;
 
 interface Coinverter
 {
-    public function exchangeRate(string
+    public function exchangeRate(string $from, st
