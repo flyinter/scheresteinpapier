@@ -8,4 +8,4 @@ interface Coinverter
 {
     public function exchangeRate(string $from, string $to, Carbon $date = null);
 
-    public
+    public function 
