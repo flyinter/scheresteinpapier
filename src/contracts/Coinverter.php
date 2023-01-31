@@ -8,4 +8,6 @@ interface Coinverter
 {
     public function exchangeRate(string $from, string $to, Carbon $date = null);
 
-    public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $en
+    public function exchangeRateBetweenDateRange(string $from, string $to, Carbon $date, Carbon $endDate);
+
+ 
