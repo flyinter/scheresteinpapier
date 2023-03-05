@@ -12,4 +12,4 @@ interface Coinverter
 
     public function convert(float $amount, string $from, string $to, Carbon $date = null);
 
-    public function convertBetweenDateRange(float $amount, string 
+    public function convertBetweenDateRange(float $amount, string $from, s
