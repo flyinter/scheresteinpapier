@@ -14,4 +14,4 @@ interface Coinverter
 
     public function convertBetweenDateRange(float $amount, string $from, string $to, Carbon $date, Carbon $endDate);
 
-    public fun
+    public function curr
