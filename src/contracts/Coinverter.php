@@ -14,4 +14,5 @@ interface Coinverter
 
     public function convertBetweenDateRange(float $amount, string $from, string $to, Carbon $date, Carbon $endDate);
 
-    public function curr
+    public function currencies();
+}
