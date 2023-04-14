@@ -15,3 +15,9 @@ class CoinverterServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    public function register()
+    {
+        $this->app->singleton(Coinverter::class, function ($app) {
+            switch ($app->make('config')->get('coinverter.driver')) {
+                case 'currencyconverterapi':
+                    return new CoinverterApiAdapter();
