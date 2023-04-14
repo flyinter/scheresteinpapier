@@ -21,3 +21,16 @@ class CoinverterServiceProvider extends ServiceProvider
             switch ($app->make('config')->get('coinverter.driver')) {
                 case 'currencyconverterapi':
                     return new CoinverterApiAdapter();
+                case 'exchangeratesapi':
+                    return new ExchangeRatesApiAdapter();
+                default:
+                    throw new \Exception('Invalid Coinverter driver.');
+            }
+        });
+
+        $this->app->alias(Coinverter::class, 'coinverter');
+    }
+
+    public function boot()
+    {
+        $this->publishes([dirname(__DIR__, 1).'/config/coinverter.php' => config_path('coinverter.php')]);
