@@ -34,3 +34,6 @@ class CoinverterServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([dirname(__DIR__, 1).'/config/coinverter.php' => config_path('coinverter.php')]);
+        $this->mergeConfigFrom(dirname(__DIR__, 1).'/config/coinverter.php', 'coinverter');
+    }
+}
